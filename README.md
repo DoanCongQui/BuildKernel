@@ -11,6 +11,9 @@ sudo make menuconfig
 Build kernel
 ```
 sudo make -j4 Image modules dtbs
+```
+Install drive
+```
 sudo make modules_install
 ```
 Sau khi build hoàn tất copy các device và Image
